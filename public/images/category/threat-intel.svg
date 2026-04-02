@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0B1F36"/>
+      <stop offset="1" stop-color="#042A3F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.22"/>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <path d="M220 710C360 460 640 410 820 540C990 660 1190 620 1380 420" stroke="#22D3EE" stroke-width="3" stroke-opacity="0.55"/>
+  <g opacity="0.75">
+    <circle cx="380" cy="610" r="8" fill="#67E8F9"/>
+    <circle cx="650" cy="500" r="8" fill="#67E8F9"/>
+    <circle cx="930" cy="560" r="8" fill="#67E8F9"/>
+    <circle cx="1170" cy="500" r="8" fill="#67E8F9"/>
+  </g>
+  <path d="M800 180L930 230V370C930 500 850 570 800 600C750 570 670 500 670 370V230L800 180Z" fill="#0B2A45" stroke="#22D3EE" stroke-opacity="0.6" stroke-width="3"/>
+  <path d="M740 385L780 425L860 335" stroke="#67E8F9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="110" fill="#A5F3FC" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">THREAT INTEL</text>
+</svg>

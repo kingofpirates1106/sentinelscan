@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop stop-color="#041018"/>
+      <stop offset="0.55" stop-color="#08353A"/>
+      <stop offset="1" stop-color="#0A4A4A"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#14B8A6" stroke-opacity="0.26" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect x="420" y="190" width="760" height="470" rx="24" fill="#042A2F" stroke="#2DD4BF" stroke-opacity="0.75" stroke-width="3"/>
+  <line x1="420" y1="280" x2="1180" y2="280" stroke="#5EEAD4" stroke-opacity="0.45" stroke-width="2"/>
+  <circle cx="470" cy="236" r="10" fill="#14B8A6"/>
+  <circle cx="515" cy="236" r="10" fill="#0EA5E9"/>
+  <circle cx="560" cy="236" r="10" fill="#A7F3D0"/>
+  <path d="M590 480L690 380L790 470L940 330L1030 420" stroke="#2DD4BF" stroke-width="4" stroke-opacity="0.75"/>
+  <text x="80" y="110" fill="#99F6E4" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">WEB SECURITY</text>
+</svg>

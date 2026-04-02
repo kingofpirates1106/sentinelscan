@@ -1,0 +1,31 @@
+
+> my-project@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.163.214.213:3000
+- Environments: .env.local
+
+✓ Starting...
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+✓ Ready in 3.7s
+○ Compiling /insights ...
+ GET /insights 200 in 6.6s (compile: 3.8s, proxy.ts: 1032ms, render: 1757ms)
+(node:8476) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[cron-ingest] Failed to update existing cover images: {
+  code: '23502',
+  details: 'Failing row contains (bd696848-32df-4b1c-8d96-9910ca61b87d, null, null, null, https://thehackernews.com/2026/02/google-reports-state-backed-ha..., null, null, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH-X2..., null, 2026-02-14 01:25:12.068936+00, 0, t).',
+  hint: null,
+  message: 'null value in column "title" of relation "security_articles" violates not-null constraint'
+}
+ GET /api/cron/ingest-security-articles 500 in 6.5s (compile: 1722ms, proxy.ts: 15ms, render: 4.8s)
+[cron-ingest] Failed to update existing cover images: {
+  code: '23502',
+  details: 'Failing row contains (3ed5186f-01ef-47ae-90f7-75f5614a9a21, null, null, null, https://thehackernews.com/2026/02/google-ties-suspected-russian-..., null, null, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiesoK..., null, 2026-02-14 01:25:26.947327+00, 0, t).',
+  hint: null,
+  message: 'null value in column "title" of relation "security_articles" violates not-null constraint'
+}
+ GET /api/cron/ingest-security-articles 500 in 3.6s (compile: 8ms, proxy.ts: 13ms, render: 3.6s)
+[?25h

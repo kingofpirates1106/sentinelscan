@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop stop-color="#0C0618"/>
+      <stop offset="0.5" stop-color="#2A1248"/>
+      <stop offset="1" stop-color="#3B1D72"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g stroke="#C4B5FD" stroke-width="2.5" stroke-opacity="0.8">
+    <circle cx="800" cy="450" r="150"/>
+    <circle cx="800" cy="450" r="90"/>
+    <path d="M650 450H950M800 300V600M692 342L908 558M908 342L692 558"/>
+  </g>
+  <g fill="#8B5CF6" fill-opacity="0.95">
+    <circle cx="800" cy="450" r="18"/>
+    <circle cx="650" cy="450" r="8"/>
+    <circle cx="950" cy="450" r="8"/>
+    <circle cx="800" cy="300" r="8"/>
+    <circle cx="800" cy="600" r="8"/>
+  </g>
+  <text x="80" y="110" fill="#DDD6FE" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">AI SECURITY</text>
+</svg>

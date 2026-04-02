@@ -1,0 +1,78 @@
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.163.214.213:3000
+- Environments: .env.local
+
+✓ Starting...
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+✓ Ready in 2.4s
+○ Compiling /insights ...
+ GET /insights 200 in 6.8s (compile: 4.4s, proxy.ts: 905ms, render: 1547ms)
+(node:23028) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[cron-ingest] feeds fetched: 3
+[cron-ingest] articles parsed: 75
+[cron-ingest] inserted: 0
+[cron-ingest] skipped: 75
+ GET /api/cron/ingest-security-articles 200 in 19.3s (compile: 342ms, proxy.ts: 7ms, render: 19.0s)
+[cron-ingest] feeds fetched: 3
+[cron-ingest] articles parsed: 75
+[cron-ingest] inserted: 0
+[cron-ingest] skipped: 75
+ GET /api/cron/ingest-security-articles 200 in 19.7s (compile: 15ms, proxy.ts: 16ms, render: 19.7s)
+ GET /insights 200 in 2.3s (compile: 278ms, proxy.ts: 1034ms, render: 949ms)
+ GET /insights 200 in 825ms (compile: 43ms, proxy.ts: 481ms, render: 302ms)
+ GET /insights 200 in 610ms (compile: 8ms, proxy.ts: 303ms, render: 299ms)
+ GET /insights 200 in 777ms (compile: 37ms, proxy.ts: 226ms, render: 514ms)
+ GET /insights 200 in 765ms (compile: 7ms, proxy.ts: 267ms, render: 492ms)
+ GET /insights 200 in 848ms (compile: 20ms, proxy.ts: 210ms, render: 618ms)
+ GET /insights 200 in 511ms (compile: 9ms, proxy.ts: 175ms, render: 327ms)
+ GET /insights 200 in 743ms (compile: 19ms, proxy.ts: 329ms, render: 395ms)
+ GET /insights 200 in 634ms (compile: 15ms, proxy.ts: 189ms, render: 430ms)
+ GET /insights 200 in 505ms (compile: 13ms, proxy.ts: 187ms, render: 306ms)
+ GET /insights 200 in 595ms (compile: 6ms, proxy.ts: 195ms, render: 395ms)
+ GET /insights 200 in 485ms (compile: 21ms, proxy.ts: 202ms, render: 261ms)
+ GET /insights 200 in 608ms (compile: 8ms, proxy.ts: 218ms, render: 382ms)
+ GET /insights 200 in 687ms (compile: 17ms, proxy.ts: 193ms, render: 477ms)
+ GET /insights 200 in 742ms (compile: 20ms, proxy.ts: 244ms, render: 477ms)
+ GET /insights 200 in 750ms (compile: 9ms, proxy.ts: 247ms, render: 494ms)
+ GET /insights 200 in 584ms (compile: 16ms, proxy.ts: 238ms, render: 330ms)
+✓ Compiled in 348ms
+ GET /insights 200 in 1079ms (compile: 475ms, proxy.ts: 196ms, render: 407ms)
+ GET /insights 200 in 798ms (compile: 40ms, proxy.ts: 246ms, render: 513ms)
+ GET /insights 200 in 520ms (compile: 13ms, proxy.ts: 239ms, render: 267ms)
+ GET /insights 200 in 594ms (compile: 23ms, proxy.ts: 270ms, render: 301ms)
+ GET /insights 200 in 533ms (compile: 14ms, proxy.ts: 250ms, render: 269ms)
+ GET /insights 200 in 550ms (compile: 6ms, proxy.ts: 252ms, render: 292ms)
+ GET /insights 200 in 759ms (compile: 18ms, proxy.ts: 230ms, render: 511ms)
+ GET /insights 200 in 713ms (compile: 12ms, proxy.ts: 249ms, render: 452ms)
+ GET /insights 200 in 505ms (compile: 21ms, proxy.ts: 205ms, render: 279ms)
+ GET /insights 200 in 495ms (compile: 8ms, proxy.ts: 213ms, render: 275ms)
+ GET /insights 200 in 679ms (compile: 18ms, proxy.ts: 220ms, render: 442ms)
+ GET /insights 200 in 504ms (compile: 12ms, proxy.ts: 186ms, render: 306ms)
+ GET /insights 200 in 696ms (compile: 11ms, proxy.ts: 193ms, render: 492ms)
+ GET /insights 200 in 716ms (compile: 23ms, proxy.ts: 187ms, render: 506ms)
+ GET /insights 200 in 521ms (compile: 11ms, proxy.ts: 175ms, render: 336ms)
+ GET /insights 200 in 701ms (compile: 9ms, proxy.ts: 223ms, render: 470ms)
+ GET /insights 200 in 713ms (compile: 24ms, proxy.ts: 202ms, render: 488ms)
+ GET /insights 200 in 497ms (compile: 18ms, proxy.ts: 188ms, render: 291ms)
+ GET /insights 200 in 524ms (compile: 15ms, proxy.ts: 231ms, render: 278ms)
+ GET /insights 200 in 663ms (compile: 6ms, proxy.ts: 210ms, render: 448ms)
+ GET /insights 200 in 483ms (compile: 17ms, proxy.ts: 177ms, render: 289ms)
+ GET /insights 200 in 707ms (compile: 11ms, proxy.ts: 231ms, render: 466ms)
+ GET /insights 200 in 691ms (compile: 9ms, proxy.ts: 235ms, render: 448ms)
+ GET /insights 200 in 725ms (compile: 9ms, proxy.ts: 225ms, render: 490ms)
+ GET /insights 200 in 705ms (compile: 7ms, proxy.ts: 209ms, render: 490ms)
+ GET /insights 200 in 800ms (compile: 17ms, proxy.ts: 192ms, render: 591ms)
+ GET /insights 200 in 543ms (compile: 18ms, proxy.ts: 193ms, render: 332ms)
+ GET /insights 200 in 871ms (compile: 9ms, proxy.ts: 263ms, render: 599ms)
+ GET /insights 200 in 629ms (compile: 62ms, proxy.ts: 230ms, render: 337ms)
+ GET /insights 200 in 903ms (compile: 8ms, proxy.ts: 299ms, render: 596ms)
+ GET /insights 200 in 601ms (compile: 19ms, proxy.ts: 258ms, render: 324ms)
+ GET /insights 200 in 592ms (compile: 10ms, proxy.ts: 195ms, render: 387ms)
+ GET /insights 200 in 680ms (compile: 8ms, proxy.ts: 247ms, render: 426ms)
+ GET /api/image-proxy?url=%2Fimages%2Fhero-cyber-default.jpg 400 in 913ms (compile: 646ms, proxy.ts: 237ms, render: 30ms)
+ GET /api/image-proxy?url=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEhTgbqgbztkZlUNEYQUOZixcqxUV-NpLNChacFNUwb2l5mdWsghckr5BS98pnTl2haLryjPeKX8tg0fvAmGcPjYfJIuD3EFaa-oWyEDf-FRqofQt0rBjACVqYXrUuTPLJa3gO-frhpoOgrnE9bxc2FKxoSx9bYOgxpQhrzj4Uh0DIGdyXkMRx18X008_v6m%2Fs1600%2Fgoogle-attacks.jpg 200 in 1730ms (compile: 425ms, proxy.ts: 434ms, render: 870ms)
+ GET /api/image-proxy?url=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEiesoKhsaUAZZj0bK1IJ7xmSmGHegLjyAfbLfxf6rngoAh3HKgRNVk_XxSGjwDPM-6nz_7bueRxN_icdflQ6bdwUptCiekeAMN67s-Ygdp6Ryk0S60X-gDQF_ZKADRxgLl7slbZKvHPSElrANxp23lKUwtselRObvGhmo_CMOqDXnF1B31y61LXkX6AB_fS%2Fs1600%2Frussian-hackers.jpg 200 in 2.3s (compile: 677ms, proxy.ts: 186ms, render: 1474ms)
+ GET /api/image-proxy?url=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEgixJrBY7kbFJ-Pj-CDd1ryd3ktnmh80-81Vc6MNVQ9PqO5RMGBsXR4G_Pr2sw1ev8C92hXckh1O_tC_B5apA8O9jCaE7THkDPmhqg5KiLM6vHT1kA73tXRxfRgWBKnARqQcqYekIqJUX0DV0zwqbNF9odwXvL6OERY6fdi0W92kPIMqiug7UbafCcUXQqQ%2Fs1600%2Fbanks.jpg 200 in 1596ms (compile: 15ms, proxy.ts: 216ms, render: 1365ms)
+ GET /api/image-proxy?url=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEiuDcg8kBvyrdu22dNN8lKs3vJ_Nhk_nEuuZtq0Q-EcpvUKlRbXSHVssro3qio1_12lWV-dcFQ_O94jO4KAzh_mbdS0MKJ7REEcNSrPr5hon0iUNDcP91cFAqcNUl3EwPIVqhgOTss5ntc4x1BpfXldEBmCm1BzRNsPQMxqMsqTtNc6jZm4hN0vS3T9K3yj%2Fs1600%2Fchrome-hacks.jpg 200 in 909ms (compile: 5ms, proxy.ts: 228ms, render: 677ms)

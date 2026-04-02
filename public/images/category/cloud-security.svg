@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop stop-color="#041020"/>
+      <stop offset="0.54" stop-color="#0F2C56"/>
+      <stop offset="1" stop-color="#1D4F8F"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#93C5FD" stroke-opacity="0.24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <path d="M520 560C460 560 410 512 410 452C410 392 460 344 520 344C542 344 562 350 580 360C608 308 662 270 724 270C802 270 868 330 882 406C898 398 916 394 936 394C1008 394 1068 452 1068 524C1068 596 1008 654 936 654H520C442 654 380 592 380 514C380 436 442 374 520 374" fill="#0B2A4F" stroke="#7DD3FC" stroke-width="4"/>
+  <path d="M560 500H920M620 450H980M640 550H980" stroke="#BAE6FD" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round"/>
+  <text x="80" y="110" fill="#DBEAFE" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">CLOUD SECURITY</text>
+</svg>

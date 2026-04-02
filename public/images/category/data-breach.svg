@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop stop-color="#12060B"/>
+      <stop offset="0.56" stop-color="#3A0B17"/>
+      <stop offset="1" stop-color="#5A0D18"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#EF4444" stroke-opacity="0.23" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g fill="#FCA5A5" fill-opacity="0.8">
+    <rect x="430" y="240" width="180" height="120" rx="10"/>
+    <rect x="650" y="240" width="180" height="120" rx="10"/>
+    <rect x="870" y="240" width="180" height="120" rx="10"/>
+  </g>
+  <path d="M500 420C500 350 560 300 630 300H970C1040 300 1100 350 1100 420V540C1100 610 1040 660 970 660H630C560 660 500 610 500 540V420Z" fill="#3A0B17" stroke="#F87171" stroke-width="3"/>
+  <path d="M560 520L670 440L760 510L890 400L1040 500" stroke="#FB7185" stroke-width="4"/>
+  <text x="80" y="110" fill="#FECACA" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">DATA BREACH</text>
+</svg>

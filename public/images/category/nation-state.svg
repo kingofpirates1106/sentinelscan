@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop stop-color="#020817"/>
+      <stop offset="0.55" stop-color="#0A1B3B"/>
+      <stop offset="1" stop-color="#112B55"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#60A5FA" stroke-opacity="0.22" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g stroke="#93C5FD" stroke-opacity="0.6" stroke-width="2">
+    <path d="M300 390C430 320 540 330 640 370C710 398 770 372 840 346C920 314 1020 316 1140 356C1210 380 1280 395 1360 370"/>
+    <path d="M300 480C420 430 530 430 610 460C700 492 780 486 850 458C940 420 1050 426 1160 468C1230 494 1290 498 1360 474"/>
+    <path d="M360 300L390 560M500 270L520 590M660 250L680 610M840 240L860 620M1010 255L1030 605M1180 285L1200 575"/>
+  </g>
+  <g fill="#38BDF8" fill-opacity="0.85">
+    <circle cx="520" cy="460" r="8"/>
+    <circle cx="760" cy="488" r="8"/>
+    <circle cx="980" cy="448" r="8"/>
+    <circle cx="1150" cy="470" r="8"/>
+  </g>
+  <text x="80" y="110" fill="#BFDBFE" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">NATION-STATE</text>
+</svg>

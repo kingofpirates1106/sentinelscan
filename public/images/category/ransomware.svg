@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop stop-color="#100510"/>
+      <stop offset="0.5" stop-color="#2B0A22"/>
+      <stop offset="1" stop-color="#4A0D23"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#E879F9" stroke-opacity="0.2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <path d="M340 620H1260" stroke="#FB7185" stroke-width="4" stroke-opacity="0.45"/>
+  <rect x="640" y="280" width="320" height="280" rx="24" fill="#2A0A1E" stroke="#F43F5E" stroke-width="3"/>
+  <path d="M740 280V230C740 196 768 168 802 168C836 168 864 196 864 230V280" stroke="#FB7185" stroke-width="14" stroke-linecap="round"/>
+  <path d="M798 390C798 379 807 370 818 370C829 370 838 379 838 390C838 399 832 407 824 409V450H812V409C804 407 798 399 798 390Z" fill="#FECDD3"/>
+  <text x="80" y="110" fill="#F5D0FE" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">RANSOMWARE</text>
+</svg>

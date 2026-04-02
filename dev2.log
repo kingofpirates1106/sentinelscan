@@ -1,0 +1,18 @@
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.163.214.213:3000
+- Environments: .env.local
+
+✓ Starting...
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+✓ Ready in 2.8s
+○ Compiling /insights ...
+ GET /insights 200 in 5.5s (compile: 3.6s, proxy.ts: 813ms, render: 1065ms)
+(node:20348) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[cron-ingest] feeds fetched: 3
+[cron-ingest] articles parsed: 75
+[cron-ingest] inserted: 0
+[cron-ingest] skipped: 75
+ GET /api/cron/ingest-security-articles 200 in 18.5s (compile: 424ms, proxy.ts: 25ms, render: 18.0s)
+[?25h

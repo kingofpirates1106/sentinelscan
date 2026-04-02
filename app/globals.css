@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .card-minimal {
+    @apply border border-slate-700/50 bg-slate-950/60 hover:bg-slate-900/40 transition;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, #e0e7ff 0%, #a5f3fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 3%;
+    --foreground: 210 40% 96%;
+    --card: 0 0% 8%;
+    --card-foreground: 210 40% 96%;
+    --popover: 0 0% 3%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 198 93% 60%;
+    --primary-foreground: 0 0% 3%;
+    --secondary: 206 100% 50%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 0 0% 25%;
+    --muted-foreground: 210 20% 70%;
+    --accent: 198 93% 60%;
+    --accent-foreground: 0 0% 3%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 96%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 198 93% 60%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    background: linear-gradient(180deg, #0a0a0a 0%, #1a0f2e 50%, #0f0a1a 100%);
+    background-attachment: fixed;
+  }
+  
+  body {
+    @apply bg-transparent text-foreground;
+    background: transparent;
+  }
+}

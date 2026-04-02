@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop stop-color="#050A14"/>
+      <stop offset="0.54" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#94A3B8" stroke-opacity="0.2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <path d="M260 720C430 520 610 640 760 500C930 345 1080 470 1330 280" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="3"/>
+  <path d="M800 190L950 250V390C950 540 860 620 800 656C740 620 650 540 650 390V250L800 190Z" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.6" stroke-width="3"/>
+  <text x="80" y="110" fill="#CBD5E1" font-size="46" font-family="Arial, sans-serif" letter-spacing="2">GENERAL SECURITY</text>
+</svg>
